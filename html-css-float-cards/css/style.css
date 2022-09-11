@@ -1,0 +1,91 @@
+/* GENERAL*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Fredoka One', cursive;
+}
+
+.container{
+  max-width: 1200px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+/*utility*/
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.debug{
+  background-color: rgba(255, 0, 0, 0.25);
+  border: 1px solid black;
+}
+
+
+/*main*/
+
+.title{
+  text-align: center;
+}
+
+.title h1{
+  padding: 20px;
+  color: rgb(245, 45, 121);
+}
+
+.title p{
+  font-size: 15px;
+  padding: 20px 20px 20px 20px;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.col img{
+  width: 62px;
+  float: left;
+}
+
+.col{
+  height: 200px;
+  width: calc(100% / 3 - 8px);
+  background-color: black;
+  box-shadow: 2px  2px gray;
+  margin: 5px 0
+}
+
+
+.col .description, h2{
+  color: rgb(255, 255, 255);
+  margin: 10px ;
+  float: left;
+  font-size: 8px;
+}
+
+/* .col .description, .work{
+  color: rgb(255, 255, 255);
+  margin: 10px ;
+  float: left;
+  font-size: 5px;
+} */
+
+.row .col{
+  float: left;
+  height: 65px;
+}
+
+.middle{
+  margin: -1px 5px;
+}
+
+.row .second{
+  padding: 10px;
+}
